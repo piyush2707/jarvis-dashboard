@@ -2,7 +2,7 @@
 
 **Jarvis V2** is a futuristic AI personal assistant dashboard interface, built using pure **HTML, CSS, and JavaScript**. It mimics an advanced assistant like Iron Man’s Jarvis with smart card layouts, animations, and a voice interaction mockup.
 
-![Jarvis V2 Preview](https://piyush2707.github.io/jarvis-ai-dashboard/preview.png)
+
 
 ---
 

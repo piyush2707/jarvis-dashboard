@@ -26,7 +26,7 @@
 ---
 
 ### 🌐 Live Preview
-[👉 View Project Live](https://piyush2707.github.io/jarvis-ai-dashboard/)
+[👉 View Project Live](https://piyush2707.github.io/jarvis-dashboard/)
 
 ---
 

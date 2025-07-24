@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jarvis V2 - Designed by Piyush Joshi</title>
+
+  <!-- LinkedIn Open Graph -->
+  <meta property="og:title" content="Jarvis V2 - AI Dashboard | Designed by Piyush Joshi" />
+  <meta property="og:description" content="A futuristic AI Assistant Dashboard UI with voice interaction mockup. Built using HTML, CSS & JS." />
+  <meta property="og:image" content="https://piyush2707.github.io/jarvis-ai-dashboard/preview.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://piyush2707.github.io/jarvis-ai-dashboard/" />
+
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #00ffe7;
+      text-shadow: 0 0 20px #00ffe7;
+    }
+
+    p.tagline {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      color: #aaa;
+    }
+
+    .dashboard {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #00ffe766;
+      border-radius: 20px;
+      padding: 1.5rem;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 20px rgba(0, 255, 231, 0.2);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 30px rgba(0, 255, 231, 0.4);
+    }
+
+    .card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #00ffe7;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #ccc;
+    }
+
+    .mic-button {
+      margin-top: 2rem;
+      background: #00ffe7;
+      color: #000;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 50px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0 0 15px #00ffe7;
+    }
+
+    .mic-button:hover {
+      background: #000;
+      color: #00ffe7;
+      border: 1px solid #00ffe7;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    footer a {
+      color: #00ffe7;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Jarvis V2</h1>
+  <p class="tagline">Your futuristic AI personal assistant dashboard</p>
+
+  <div class="dashboard">
+    <div class="card">
+      <h2>Weather Control</h2>
+      <p>Get real-time weather updates & recommendations.</p>
+    </div>
+    <div class="card">
+      <h2>System Health</h2>
+      <p>Monitor CPU, RAM & system stats like a pro.</p>
+    </div>
+    <div class="card">
+      <h2>Voice Interaction</h2>
+      <p>Talk to Jarvis with smart voice commands (mockup).</p>
+    </div>
+    <div class="card">
+      <h2>Task Automation</h2>
+      <p>Trigger automated workflows with one click.</p>
+    </div>
+  </div>
+
+  <button class="mic-button" onclick="startListening()">🎤 Activate Voice</button>
+
+  <footer>
+    Designed by <strong>Piyush Joshi</strong> | 
+    <a href="https://www.instagram.com/piyush2707" target="_blank">Instagram</a> • 
+    <a href="https://www.linkedin.com/in/piyush2707/" target="_blank">LinkedIn</a>
+  </footer>
+
+  <script>
+    function startListening() {
+      alert("🎙️ Voice assistant is listening...\n(Mockup only - real voice control not enabled)");
+    }
+  </script>
+
+</body>
+</html>
